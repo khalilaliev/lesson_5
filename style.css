@@ -1,0 +1,25 @@
+@import url('reset.css');
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.box{
+    margin-top: 10px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    background: rgb(255, 108, 108);
+}
+.input{
+    padding: 5px;
+    border: none;
+    border: 1px solid rgb(255, 108, 108);
+}
+.input::placeholder{
+    color: rgb(255, 108, 108);
+}
+.input:focus{
+    border: 1px solid rgb(255, 108, 108);
+    outline: none;
+}
